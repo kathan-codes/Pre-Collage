@@ -7,19 +7,23 @@ headers = {
 
 url = "https://timesofindia.indiatimes.com/"
 
-with open("Pre-Collage\Day02_News_Headline_Aggregator\Headline.txt","w",) as f:
+with open("Pre-Collage\Day02_News_Headline_Aggregator\Headlines.txt","w",) as f:
     f.write("==================================================================\n")
     f.write("               Todays Headlines Form Times Of India               \n")
     f.write("==================================================================\n")
 
-def get_headline():
+def get_headlines():
     response = requests.get(url,headers=headers,timeout=5)
+    response.raise_for_status()
     soup = BeautifulSoup(response.text,'html.parser')
-    headline = soup.find_all('div',class_="Kt6Pm style_change T5Q6J")
+    headlines = soup.find_all('div',class_="Kt6Pm style_change T5Q6J")
 
-    for h in headline:
-        print(f"{h.get_text(strip=True)}\n")
-        with open("Pre-Collage\Day02_News_Headline_Aggregator\Headline.txt","a",encoding="utf-8") as f:
-            f.write(f"{h.get_text(strip=True)}\n")
+    
+    with open("Pre-Collage/Day02_News_Headline_Aggregator/Headlines.txt","a",encoding="utf-8") as f:
+        for index, h in enumerate(headlines, start=1):
+            print(f"{index}. {h.get_text(strip=True)}\n")   
+            f.write(f"{index}. {h.get_text(strip=True)}\n")
+    
+    print(f"\n✅ Successfully saved {len(headlines)} headlines to Pre-Collage/Day02_News_Headline_Aggregator/Headline.txt")
 
-get_headline()
+get_headlines()
