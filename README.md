@@ -8,7 +8,7 @@ Welcome to my **Pre-collage** Python learning journey! This repository tracks my
 ## 📅 The 30-Day Schedule & Progress
 
 ### 🔹 Phase 1: Automation & Scripting (Days 1–8)
-- [ ] **Day 1:** Project 1 — Crypto Price Alert (`requests`)
+- [x] **Day 1:** Project 1 — Crypto Price Alert (`requests`)
 - [ ] **Day 2:** Project 2 — News Headline Aggregator (`beautifulsoup4`)
 - [ ] **Days 3-4:** Project 3 — Automated Job Scraper (`selenium`)
 - [ ] **Day 5:** Project 4 — Smart Downloads Cleaner (`os`, `shutil`, `pathlib`)
