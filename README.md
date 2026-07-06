@@ -9,9 +9,9 @@ Welcome to my **Pre-collage** Python learning journey! This repository tracks my
 
 ### 🔹 Phase 1: Automation & Scripting (Days 1–8)
 - [x] **Day 1:** Project 1 — Crypto Price Alert (`requests`)
-- [ ] **Day 2:** Project 2 — News Headline Aggregator (`beautifulsoup4`)
-- [ ] **Days 3-4:** Project 3 — Automated Job Scraper (`selenium`)
-- [ ] **Day 5:** Project 4 — Smart Downloads Cleaner (`os`, `shutil`, `pathlib`)
+- [x] **Day 2:** Project 2 — News Headline Aggregator (`beautifulsoup4`)
+- [x] **Days 3-4:** Project 3 — Automated Job Scraper (`selenium`)
+- [x] **Day 5:** Project 4 — Smart Downloads Cleaner (`os`, `shutil`, `pathlib`)
 - [ ] **Day 6:** Project 5 — Automated Expense Compiler (`csv`, `openpyxl`)
 - [ ] **Days 7-8:** Project 6 — Smart Weather SMS Bot (`python-dotenv`)
 
