@@ -4,6 +4,8 @@ from selenium.webdriver.common.by import By
 import time
 import pandas as pd
 
+## This program works better with proxies
+
 def get_job(num):
     number = int(num)
     all_job_data = []
@@ -55,4 +57,4 @@ def get_job(num):
         print("⚠️ No data was collected.")
 
 if __name__ == "__main__":
-    get_job(2)
+    get_job(11)
