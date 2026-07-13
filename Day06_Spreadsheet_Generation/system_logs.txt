@@ -1,0 +1,4 @@
+[2026-07-06 10:14:02] INFO - USER_EXPENSE: Food | Corporate lunch meeting | 45.00 USD
+[2026-07-06 11:22:15] WARN - INVALID_FORMAT_LINE: skip this broken sentence!!
+[2026-07-06 14:05:40] INFO - USER_EXPENSE: Software | AWS Cloud hosting bill | 120.00 EUR
+[2026-07-06 16:45:00] INFO - USER_EXPENSE: Transport | Client taxi ride | 35.00 USD
