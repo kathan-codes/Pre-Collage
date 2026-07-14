@@ -1,4 +1,17 @@
-[2026-07-06 10:14:02] INFO - USER_EXPENSE: Food | Corporate lunch meeting | 45.00 USD
-[2026-07-06 11:22:15] WARN - INVALID_FORMAT_LINE: skip this broken sentence!!
-[2026-07-06 14:05:40] INFO - USER_EXPENSE: Software | AWS Cloud hosting bill | 120.00 EUR
-[2026-07-06 16:45:00] INFO - USER_EXPENSE: Transport | Client taxi ride | 35.00 USD
+[2026-07-01 09:15:30] INFO - USER_EXPENSE: Food | Team breakfast meeting | 4500.00 INR
+[2026-07-01 11:22:05] WARN - CONNECTION_DELAY: Retrying database handshake...
+[2026-07-02 14:05:12] INFO - USER_EXPENSE: Software | AWS Cloud hosting bill | 120.00 EUR
+[2026-07-03 10:00:00] INFO - USER_EXPENSE: Transport | Client taxi ride | 35.50 USD
+[2026-07-04 18:30:45] INFO - USER_EXPENSE: Entertainment | Client dinner party | 250.00 GBP
+[2026-07-04 21:12:18] ERROR - TRANSACTION_FAILED: User card declined on merchant site
+[2026-07-05 08:45:00] INFO - USER_EXPENSE: Office | New ergonomic chair purchase | 32000.00 JPY
+[2026-07-06 13:10:22] INFO - USER_EXPENSE: Food | Coffee and snacks for office | 15.80 AUD
+[2026-07-07 16:20:09] INFO - USER_EXPENSE: Marketing | Google Ads campaign deposit | 500.00 USD
+[2026-07-08 09:05:00] INFO - USER_EXPENSE: Software | GitHub Enterprise subscription | 75.00 EUR
+[2026-07-08 12:40:55] WARN - INVALID_FORMAT_LINE: skip this broken sentence!!
+[2026-07-09 11:15:30] INFO - USER_EXPENSE: Travel | Flight tickets for conference | 450.00 GBP
+[2026-07-10 15:33:41] INFO - USER_EXPENSE: Office | Whiteboard markers & sticky notes | 2500.00 INR
+[2026-07-11 17:02:10] INFO - USER_EXPENSE: Software | Slack Pro team membership | 18000.00 JPY
+[2026-07-12 10:22:11] DEBUG - MEMORY_CLEANUP: Garbage collection executed successfully
+[2026-07-13 14:50:00] INFO - USER_EXPENSE: Transport | Airport shuttle transfer | 65.00 AUD
+[2026-07-14 11:05:14] INFO - USER_EXPENSE: Hardware | External testing monitor | 220.00 USD
