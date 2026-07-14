@@ -10,7 +10,7 @@ A smart weather notification system that fetches location-based weather forecast
 
 ## 🛠️ Core Libraries Used
 * `requests` - For calling the weather API and sending webhook payloads.
-* `python-dotenv` - For securely loading credentials from a hidden `.env` file.
+* `   ` - For securely loading credentials from a hidden `.env` file.
 
 ## 🚀 How To Run
 1. Navigate to this directory.
